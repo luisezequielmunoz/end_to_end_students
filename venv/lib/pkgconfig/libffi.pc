@@ -1,0 +1,11 @@
+prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1u
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}

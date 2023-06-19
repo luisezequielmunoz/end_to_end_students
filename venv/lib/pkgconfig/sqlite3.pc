@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.41.2
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}

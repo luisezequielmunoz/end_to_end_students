@@ -1,0 +1,13 @@
+prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+exec_prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+libdir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/lib
+sharedlibdir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/lib
+includedir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

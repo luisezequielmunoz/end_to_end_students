@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+exec_prefix=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv
+libdir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/lib
+includedir=/Users/l.munoz/Desktop/Luis/3. Personal/5. Projects/04. End-to-end Students performance/end_to_end_students/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
