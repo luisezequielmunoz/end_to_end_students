@@ -5,4 +5,5 @@ matplotlib
 scikit-learn
 xgboost
 feature_engine
+dill
 -e .
